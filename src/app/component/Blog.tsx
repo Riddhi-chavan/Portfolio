@@ -99,7 +99,9 @@ const Blog = () => {
                 </div>
                 <div className="bg-white py-6 px-5 xl:py-8">
                   <span className="block font-body text-lg font-semibold text-black">{blogItem.name}</span>
-                   <button className='text-white bg-black  border-2 border-black w-40 h-14 rounded-full ml-48 mt-3 hover:bg-primary hover:scale-95'>
+                   <button className='text-white bg-black  border-2 border-black w-40 h-14 rounded-full ml-48 mt-3 hover:bg-primary hover:scale-95'
+                    onClick={() => handleReadMoreClick(blogItem)}
+                   >
                     Read more
                    </button>
                   <div className="block pt-2 font-body text-grey-20">

@@ -48,7 +48,7 @@ const Main = () => {
                       className="bx bxl-facebook-square text-3xl text-black hover:text-yellow ml-2"
                     >  <FontAwesomeIcon icon={faInstagram} /></i>
                   </a>
-                  <a href="https://www.facebook.com/riddhi.chavan.370" target="_blank" className="pl-4">
+                  <a href="https://github.com/Riddhi-chavan" target="_blank" className="pl-4">
                     <i
                       className="bx bxl-twitter text-3xl text-black hover:text-yellow"
                     ><FontAwesomeIcon icon={faGithub} /></i>
