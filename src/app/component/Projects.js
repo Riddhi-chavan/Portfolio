@@ -55,6 +55,25 @@ const projects = () => {
               <img width={200} height={200} src="/Trello.png" alt="Stock Image" className='object-cover w-full h-72 rounded-lg' />
             </div>
           </div>
+          <div className="text-white p-4 justify-between flex flex-col lg:flex-row">
+            {/* Top: Details */}
+            <div className="lg:order-1 ">
+              <div className="text-3xl font-bold mb-2 text-grey-30">
+                The Live News
+              </div>
+              <div className='mb-4 max-w-md'>
+              A dynamic Live News app fueled by the robust Media Stack API. Crafted with Next.js, TypeScript, and featuring dynamic routing, this app offers a seamless news browsing experience. Users can effortlessly explore diverse categories, conduct searches, and switch to a sleek dark mode. The app also enhances readability with a Read More feature that unveils the full article. Engineered for responsiveness and aesthetics, it boasts a blend of technologies, including Tailwind CSS, React-Timago, and HeroIcons. Elevate your news consumption with this immersive and stylish application.
+              </div>
+              <a href='https://the-live-news.vercel.app/' target='_blank'>
+                <button className='text-white bg-black border-2 border-black w-40 h-14 rounded-full mt-3 hover:bg-primary hover:scale-95'>
+                  View Project
+                </button>
+              </a>
+            </div>
+            <div className="lg:order-2 mt-4 lg:mt-0 transition-transform transform hover:-translate-y-2">
+              <img width={200} height={200} src="/TheLiveNews.png" alt="Stock Image" className='object-cover w-full h-72 rounded-lg' />
+            </div>
+          </div>
 
 
 
