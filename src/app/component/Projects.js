@@ -154,7 +154,7 @@ const projects = () => {
               <img
                 width={200}
                 height={200}
-                src="/Trello.png"
+                src="/digital-hippo-home.png"
                 alt="Stock Image"
                 className="object-cover w-full h-72 rounded-lg"
               />
