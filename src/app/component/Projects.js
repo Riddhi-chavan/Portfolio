@@ -160,6 +160,42 @@ const projects = () => {
               />
             </div>
           </div>
+          <div className="text-white p-4 justify-between flex flex-col lg:flex-row">
+            {/* Top: Details */}
+            <div className="lg:order-1 ">
+              <div className="text-3xl font-bold mb-2 text-grey-30">
+                Course Management System
+              </div>
+              <div className="mb-4 max-w-md">
+                An advanced web application empowering students with streamlined
+                course management capabilities. It integrates Google
+                authentication for secure access, provides extensive course
+                details including syllabi, offers a personalized dashboard for
+                efficient course oversight, features a progress tracker to
+                monitor learning milestones, and ensures a seamless user
+                experience across all devices with responsive design. Developed
+                using React.js for dynamic frontend functionality, Redux for
+                state management, and Firebase for scalable backend operations.
+              </div>
+              <a
+                href="https://soft-gumption-a980d3.netlify.app/"
+                target="_blank"
+              >
+                <button className="text-white bg-black border-2 border-black w-40 h-14 rounded-full mt-3 hover:bg-primary hover:scale-95">
+                  View Project
+                </button>
+              </a>
+            </div>
+            <div className="lg:order-2 mt-4 lg:mt-0 transition-transform transform hover:-translate-y-2">
+              <img
+                width={200}
+                height={200}
+                src="/Course.png"
+                alt="Stock Image"
+                className="object-cover w-full h-72 rounded-lg"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </>
