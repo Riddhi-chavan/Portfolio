@@ -196,6 +196,41 @@ const projects = () => {
               />
             </div>
           </div>
+          <div className="text-white p-4 justify-between flex flex-col lg:flex-row">
+            {/* Top: Details */}
+            <div className="lg:order-2  order-1 ">
+              <div className="text-3xl font-bold mb-2 text-grey-30">
+                Three.js Projects
+              </div>
+              <div className="mb-4 max-w-md">
+                Showcasing a collection of interactive 3D projects developed
+                with Three.js: Revolving Earth: A 3D Earth model rotating in a
+                starry background. Colorful Tunnel: An immersive tunnel with
+                vibrant, rotating boxes. Interactive Grid Sphere: A clickable
+                grid sphere that responds to user interactions. Interactive
+                Jelly Shape: A playful, fluid-like shape reacting to mouse
+                movements. Explore these projects to experience engaging visuals
+                and animations!
+              </div>
+              <a
+                href="https://gregarious-dango-db2756.netlify.app/"
+                target="_blank"
+              >
+                <button className="text-white bg-black border-2 border-black w-40 h-14 rounded-full mt-3 hover:bg-primary hover:scale-95">
+                  View Project
+                </button>
+              </a>
+            </div>
+            <div className="lg:order-1 order-2 mt-6 lg:mt-0 transition-transform transform hover:-translate-y-2 ">
+              <img
+                width={300}
+                height={300}
+                src="/threejs-projects.png"
+                alt="Stock Image"
+                className="object-cover w-full h-72 rounded-lg"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </>
