@@ -231,6 +231,34 @@ const projects = () => {
               />
             </div>
           </div>
+          <div className="text-white p-4 justify-between flex flex-col lg:flex-row">
+            {/* Top: Details */}
+            <div className="lg:order-1 ">
+              <div className="text-3xl font-bold mb-2 text-grey-30">
+                3D Interactive Experiences
+              </div>
+              <div className="mb-4 max-w-md">
+                Experience the sleek and modern 3D iPhone Showcase, built using Three.js, WebGi, and GSAP. This interactive project features a photorealistic iPhone 14 model with smooth animations, intuitive controls for rotation and zoom, and a responsive design optimized for all devices. It highlights the power of advanced 3D web technologies to create immersive user experiences.
+              </div>
+              <a
+                href="https://shiny-cuchufli-6f8728.netlify.app/"
+                target="_blank"
+              >
+                <button className="text-white bg-black border-2 border-black w-40 h-14 rounded-full mt-3 hover:bg-primary hover:scale-95">
+                  View Project
+                </button>
+              </a>
+            </div>
+            <div className="lg:order-2 mt-4 lg:mt-0 transition-transform transform hover:-translate-y-2">
+              <img
+                width={200}
+                height={200}
+                src="/3D.png"
+                alt="Stock Image"
+                className="object-cover w-full h-72 rounded-lg"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </>
