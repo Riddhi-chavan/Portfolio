@@ -21,6 +21,31 @@ const projects = () => {
           </h3>
           <div className="text-white p-4 justify-between flex flex-col lg:flex-row">
             {/* Top: Details */}
+            <div className="lg:order-2  order-1 ">
+              <div className="text-3xl font-bold mb-2 text-grey-30">
+                Real-Time Chat Application
+              </div>
+              <div className="mb-4 max-w-md">
+                Real-Time Chat Application is a full-stack MERN project that enables users to communicate instantly through secure, real-time messaging. The application features JWT-based authentication, online user status, image sharing, and profile management with Cloudinary integration. Real-time communication is powered by Socket.IO, while MongoDB ensures persistent message storage. The frontend is built with React, Vite, Tailwind CSS, and Zustand for state management, delivering a modern and responsive user experience. The backend uses Node.js and Express with secure cookie-based sessions. The application is fully deployed using Render (backend) and Netlify (frontend), demonstrating end-to-end development, real-time systems, and production-ready deployment.
+              </div>
+              <a href="https://frolicking-zabaione-b66282.netlify.app/" target="_blank">
+                <button className="text-white bg-black border-2 border-black w-40 h-14 rounded-full mt-3 hover:bg-primary hover:scale-95">
+                  View Project
+                </button>
+              </a>
+            </div>
+            <div className="lg:order-1 order-2 mt-6 lg:mt-0 transition-transform transform hover:-translate-y-2 ">
+              <img
+                width={200}
+                height={200}
+                src="/realtime-chat-app.png"
+                alt="Stock Image"
+                className="object-cover w-full h-72 rounded-lg"
+              />
+            </div>
+          </div>
+          <div className="text-white p-4 justify-between flex flex-col lg:flex-row">
+            {/* Top: Details */}
             <div className="lg:order-1 ">
               <div className="text-3xl font-bold mb-2 text-grey-30">
                 Stock Management

@@ -79,7 +79,7 @@ const Page = () => {
   return (
     <>
        <Goback/>
-      <div className='p-10  bg-black  pb-52'>
+      <div className='p-10  bg-black  pb-52 h-[100vh]'>
 
         <div
           className="mx-auto grid w-full grid-cols-1 gap-6 pt-12 sm:w-3/4 lg:w-full lg:grid-cols-3 xl:gap-10"
