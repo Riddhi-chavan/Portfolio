@@ -21,6 +21,34 @@ const projects = () => {
           </h3>
           <div className="text-white p-4 justify-between flex flex-col lg:flex-row">
             {/* Top: Details */}
+            <div className="lg:order-1 ">
+              <div className="text-3xl font-bold mb-2 text-grey-30">
+                Uber Clone
+              </div>
+              <div className="mb-4 max-w-md">
+                Uber Clone is a full-stack MERN ride-hailing application with two user roles — Riders and Captains. It features real-time ride matching via Socket.IO and MongoDB geo-spatial queries, live GPS tracking with Google Maps, OTP-verified rides, and dual payments through Cash and Stripe. The frontend is built with React 18, Vite, Tailwind CSS, and GSAP, while the backend uses Node.js, Express, Cloudinary, and JWT authentication with token blacklisting. Deployed on Render and Netlify.
+              </div>
+              <a
+                href="https://vermillion-frangipane-2e08b1.netlify.app/"
+                target="_blank"
+              >
+                <button className="text-white bg-black border-2 border-black w-40 h-14 rounded-full mt-3 hover:bg-primary hover:scale-95">
+                  View Project
+                </button>
+              </a>
+            </div>
+            <div className="lg:order-2 mt-4 lg:mt-0 transition-transform transform hover:-translate-y-2">
+              <img
+                width={200}
+                height={200}
+                src="/uber.png"
+                alt="Stock Image"
+                className="object-cover w-full h-72 rounded-lg"
+              />
+            </div>
+          </div>
+          <div className="text-white p-4 justify-between flex flex-col lg:flex-row">
+            {/* Top: Details */}
             <div className="lg:order-2  order-1 ">
               <div className="text-3xl font-bold mb-2 text-grey-30">
                 Real-Time Chat Application
