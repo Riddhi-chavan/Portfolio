@@ -21,6 +21,32 @@ const projects = () => {
           </h3>
           <div className="text-white p-4 justify-between flex flex-col lg:flex-row">
             {/* Top: Details */}
+            <div className="lg:order-2  order-1 ">
+              <div className="text-3xl font-bold mb-2 text-grey-30">
+                Post-girl — API Collaboration Platform
+              </div>
+              <div className="mb-4 max-w-md">
+                Post-girl is a full-stack API testing and collaboration platform inspired by tools like Postman. It enables developers to build and test REST APIs, connect to WebSocket servers in real time, and organize workflows using collections and team workspaces.
+                The platform includes AI-powered JSON payload generation, public request sharing, and execution history tracking for better productivity and collaboration. Built with Next.js, React, Prisma, and PostgreSQL, and deployed on Render, it demonstrates strong skills in full-stack development, real-time systems, and scalable architecture.
+              </div>
+              <a href="https://post-girl.onrender.com/" target="_blank">
+                <button className="text-white bg-black border-2 border-black w-40 h-14 rounded-full mt-3 hover:bg-primary hover:scale-95">
+                  View Project
+                </button>
+              </a>
+            </div>
+            <div className="lg:order-1 order-2 mt-6 lg:mt-0 transition-transform transform hover:-translate-y-2 ">
+              <img
+                width={200}
+                height={200}
+                src="/postGirl.png"
+                alt="Post girl"
+                className="object-cover w-full h-72 rounded-lg"
+              />
+            </div>
+          </div>
+          <div className="text-white p-4 justify-between flex flex-col lg:flex-row">
+            {/* Top: Details */}
             <div className="lg:order-1 ">
               <div className="text-3xl font-bold mb-2 text-grey-30">
                 Uber Clone
